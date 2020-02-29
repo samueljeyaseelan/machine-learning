@@ -1,0 +1,19 @@
+what is Kmeans algorithm?
+It is an iterative method that partitions the given dataset into K number f pre-defined non-overlapping clusters. It is an unsupervised machine learning algorithm. During clustering, it ensures that each data point is assigned to only one group. It ensures that the sum of the squared distance between the data points and centroid is at the minival value. 
+
+what is a centroid?
+It refers to an arithmatuc mean of all data points that belong to the same cluster
+
+how it works?
+First, we need to specify the number of clusters. In our example, i have set the number of clusters to three. Secondly, we need to initialize the centroid by shuffling the given data and then we need to randomly select K data points without any replacement. Finally, we need to continue to iterate until there is no change observed in the centroid.
+
+What is clustering?
+The similarity between the given data-points is determined by using the distance based measurements. It is better to standardize the data to have a mean value of zero and a standard-deviation of one. The meaning of the word "clustering" refers to a set of data points which are aggregated together due to their similarities or similar behavior.
+
+What is the time compexity?
+The time complexicity of this algoritm is linear in terms of the number data points and number of iterations. 
+
+For example:
+   input0.txt file has 40 data points which undergoes 10 iterations in my code.
+   Time complexity of k means = O(40*10)
+
